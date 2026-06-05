@@ -2343,7 +2343,7 @@ input, select, textarea {
 		#copyright ul.links {
 			display: inline-block;
 			background: #2C2929;
-			background: rgba(255, 255, 255, 0.05);
+			background: black(255, 255, 255, 0.05);
 			border-radius: 5px;
 			margin: 0;
 			padding: 0.85em 2.25em 0.85em 2.25em;
