@@ -57,7 +57,7 @@ body {
 
 mark {
 	background-color:black;
-	color: inherit;
+	color: inherit black;
 }
 
 input::-moz-focus-inner {
@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background: #252122;
-		background-image: url("images/bg02.png");
+		background-image: url("images/image8.jpeg");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2184,7 +2184,7 @@ input, select, textarea {
 	}
 
 		#banner header {
-			background-color: rgba(34, 30, 31, 0.98);
+			background-color: black(34, 30, 31, 0.98);
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
@@ -2266,7 +2266,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/image1.jpeg");
+		background: #f7f7f7 url("images/image8.jpeg");
 		padding: 4em 0 4em 0;
 	}
 
@@ -2276,14 +2276,14 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/image1.jpeg");
+			background: url("images/image8.jpeg");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/image1.jpeg");
+			background: #f7f7f7 url("images/image8.jpeg");
 		}
 
 /* Footer */
@@ -2300,7 +2300,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/image1.jpeg");
+			background: url("images/image8.jpeg");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
