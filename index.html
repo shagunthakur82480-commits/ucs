@@ -313,7 +313,100 @@
 				</section>
 
 		</div>
+<!-- POPUP MODAL -->
+<div id="popupModal" class="modal">
 
+  <div class="modal-content">
+
+    <span class="close-btn" onclick="closeModal()">
+      &times;
+    </span>
+
+    <h2 id="modalTitle"></h2>
+
+    <p id="modalText"></p>
+
+  </div>
+
+</div>
+
+
+<script>
+
+function openModal(type) {
+
+  document.getElementById("popupModal").style.display = "block";
+
+  if(type === 'jaspreet') {
+
+    document.getElementById("modalTitle").innerHTML =
+      "S. JASPREET SINGH";
+
+    document.getElementById("modalText").innerHTML =
+      "Founder and Managing Director of Universal Container Service with leadership in logistics and container transportation.";
+
+  }
+
+  else if(type === 'baljeet') {
+
+    document.getElementById("modalTitle").innerHTML =
+      "S. BALJEET SINGH";
+
+    document.getElementById("modalText").innerHTML =
+      "Co-Founder of Universal Container Service with experience in transport operations and fleet management.";
+
+  }
+
+  else if(type === 'jasvinder') {
+
+    document.getElementById("modalTitle").innerHTML =
+      "S. JASVINDER SINGH";
+
+    document.getElementById("modalText").innerHTML =
+      "Co-Founder contributing to operational growth and transportation management.";
+
+  }
+
+  else if(type === 'accounts') {
+
+    document.getElementById("modalTitle").innerHTML =
+      "ACCOUNTS & OPERATIONAL TEAM";
+
+    document.getElementById("modalText").innerHTML =
+      "Ensuring financial transparency, operational accuracy, and efficient management systems.";
+
+  }
+
+  else if(type === 'staff') {
+
+    document.getElementById("modalTitle").innerHTML =
+      "CO-OPERATIONAL STAFF";
+
+    document.getElementById("modalText").innerHTML =
+      "Dedicated professional staff focused on operational excellence and customer satisfaction.";
+
+  }
+
+  else if(type === 'fleet') {
+
+    document.getElementById("modalTitle").innerHTML =
+      "CONTAINER FLEET";
+
+    document.getElementById("modalText").innerHTML =
+      "Modern GPS-enabled container fleet supported with TSS lock systems for secure transportation.";
+
+  }
+
+}
+
+
+function closeModal() {
+
+  document.getElementById("popupModal").style.display = "none";
+
+}
+
+</script>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
