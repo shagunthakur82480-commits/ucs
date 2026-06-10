@@ -340,7 +340,10 @@
 
 
 <script>
-	
+	function openModal(type) {
+
+  document.getElementById("popupModal").style.display = "block";
+		
 else if(type === 'transport'){
 	
 	document.getElementById("modalTitle").innerHTML =
@@ -359,10 +362,6 @@ document.getElementById("modalText").innerHTML =
 "• Full Truck Load (FTL)<br><br>• All India Permit<br><br>• All Sizes Vehicles Available";
 
 }
-function openModal(type) {
-
-  document.getElementById("popupModal").style.display = "block";
-
   if(type === 'jaspreet') {
 
     document.getElementById("modalTitle").innerHTML =
