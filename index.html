@@ -407,7 +407,9 @@ function openModal(type) {
       "Our modern container fleet is equipped with advanced GPS tracking systems and secure TSS lock technology to ensure safe and reliable cargo transportation. With a focus on operational efficiency and vehicle maintenance, Universal Container Service delivers dependable transport solutions for diverse logistics requirements.";
 
   }
-else if(type === 'transport')
+else if(type === 'transport'){
+	document.getElementById("modalText").innerHTML =
+		"REQUEST TRANSPORT";
 	document.getElementById("modalText").innerHTML =
 "For transport inquiries and logistics support, please contact Universal Container Service.<br><br>Email: ucs002808@gmail.com<br>Phone: +91 8740800005";
 }
